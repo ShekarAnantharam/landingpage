@@ -289,14 +289,14 @@ function LandingPage() {
               className="logos"
               style={{ display: "flex", flexWrap: "wrap" }}
             >
-              <div style={{ width: "200%" }}>
-                <img src={hubspot} />
-              </div>
-              <img src={pubg} />
-              <img src={uber} />
-              <img src={flipkart} />
-              <img src={amazon} />
-              <img src={zomato} />
+              {/* <div style={{ width: "200%" }}> */}
+                <img style={{width:"20%"}} src={hubspot} />
+           
+              <img style={{width:"20%"}} src={pubg} />
+              <img style={{width:"20%"}} src={uber} />
+              <img style={{width:"20%"}} src={flipkart} />
+              <img style={{width:"20%"}}src={amazon} />
+              <img style={{width:"20%"}}src={zomato} />
             </div>
           </div>
         </div>
